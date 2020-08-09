@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: producer
+
+kafka:
+  bootstrap:
+    servers: kafka:9093
+  producers:
+    tweet-client:
+      retries: 5
